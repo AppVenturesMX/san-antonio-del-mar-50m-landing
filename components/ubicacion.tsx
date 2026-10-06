@@ -57,13 +57,13 @@ export function Ubicacion() {
         <Reveal delay={0.2}>
           <div className="mt-10 overflow-hidden rounded-2xl border border-emerald-100 bg-white shadow-sm">
             <iframe
-              src="https://maps.google.com/maps?q=San%20Antonio%20del%20Mar%2C%20Tijuana%2C%20Baja%20California&z=13&output=embed"
+              src="https://maps.google.com/maps?q=San%20Antonio%20del%20Mar%2C%20Playas%20de%20Tijuana%2C%20Baja%20California&z=13&output=embed"
               width="100%"
               height="400"
               style={{ border: 0 }}
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="Ubicación aproximada: San Antonio del Mar, Tijuana"
+              title="Ubicación aproximada: San Antonio del Mar, Playas de Tijuana"
               className="h-[320px] w-full sm:h-[400px]"
             />
           </div>
