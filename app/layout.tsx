@@ -6,6 +6,14 @@ export const metadata: Metadata = {
   title: 'Casa a 50 metros del mar en San Antonio del Mar | $7,500,000 MXN — Bienes Raíces Hub',
   description:
     'Casa de 3 recámaras y 2.5 baños a 50 metros del mar, en una calle privada con solo dos casas, entre Tijuana y Rosarito. Seguridad 24/7 y acceso directo a la carretera de cuota. Agenda tu visita con el asesor.',
+  // Esta landing es una versión de campaña (ads, WhatsApp) de la misma
+  // propiedad que ya vive en
+  // bienesraiceshub.com/propiedad/san-antonio-del-mar-50m. El canonical
+  // marca al Hub como la versión preferida para Google. Ver
+  // claude/estrategia-seo-google-oct-2026.md, sección 1.
+  alternates: {
+    canonical: 'https://www.bienesraiceshub.com/propiedad/san-antonio-del-mar-50m',
+  },
   openGraph: {
     title: 'Casa a 50 metros del mar en San Antonio del Mar | $7,500,000 MXN',
     description:
