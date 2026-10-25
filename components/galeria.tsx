@@ -69,7 +69,7 @@ export function Galeria() {
                 </p>
               </div>
 
-              <PhotoWatermark />
+              <PhotoWatermark variant="full" />
 
               <button
                 onClick={() => go(-1)}
@@ -106,6 +106,7 @@ export function Galeria() {
               }`}
             >
               <img src={foto.src} alt={foto.alt} className="h-full w-full object-cover" />
+              <PhotoWatermark variant="simple" />
             </button>
           ))}
         </div>
